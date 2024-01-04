@@ -1,5 +1,5 @@
 // Type assertions in TypeScript are a way for you to tell the compiler that you know more about the type of a value than TypeScript does.
-//  It doesn't perform any runtime checking or restructuring of the object.
+//  It doesn't perform any runtime checking 
 //  It's essentially a way to silence TypeScript's type-checker and assume that a variable is of a specific type.
 
 let element = document.getElementById("p") as HTMLInputElement;
